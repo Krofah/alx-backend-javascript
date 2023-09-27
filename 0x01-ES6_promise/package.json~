@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "fix-lint": "./node_modules/.bin/eslint --fix",
+    "fix-lint": "./node_modules/.bin/eslint--fix",
     "check-lint": "lint [0-9]*.js",
     "dev": "npx babel-node",
     "test": "jest",
