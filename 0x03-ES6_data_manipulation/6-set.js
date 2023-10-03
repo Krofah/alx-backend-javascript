@@ -1,5 +1,5 @@
-const setFromArray = (array) => (
-  new Set(array)
-);
+function setFromArray(array) {
+  return new Set(array);
+}
 
 export default setFromArray;
